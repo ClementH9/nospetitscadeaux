@@ -1,0 +1,144 @@
+* {
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: "Arvo", sans-serif;
+}
+
+.logo{
+  width: 45%;
+  height: 45%;
+  min-width: 300px;
+  min-height: 70px;
+  display: block; /* Pour s'assurer que les marges automatiques fonctionnent correctement */
+  margin: 0 auto; /* Marges automatiques pour centrer horizontalement */
+  padding: 5px;
+}
+
+header
+{
+  display: flex;
+  justify-content: space-between; /* laisse un espace */
+  align-items: center; /* alignement vertical au centre */
+}
+
+.global {
+  background-image: url('../images/gift.jpeg');
+  object-fit: cover; /* pour que l'image couvre toute la surface de l'élément */
+  background-position: center; /* pour centrer l'image */
+  min-height: 450px;
+  color: white;
+  opacity: 0.9
+}
+
+.global{
+  text-align: center;
+}
+
+.texte {
+  margin-bottom: 20px; /* Ajoute 20 pixels de marge en bas de chaque élément texte */
+}
+
+
+.citation{
+  font-family: "Caveat", cursive;
+  font-size: 38px;
+}
+
+.texte-cadeau{
+  vertical-align: middle;
+  font-size: 26px;
+  padding: 15px;
+}
+
+.button-indices button {
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgb(2, 73, 187);
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  transition: transform 250ms, opacity 250ms; /* Ajout de la transition pour le survol */
+  border: 2px solid rgb(2, 73, 187);
+}
+
+.button-indices button {
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease; /* Ajoute une transition pour une animation fluide */
+  text-decoration: none; /* Enlève le soulignage sur le lien */
+}
+
+.button-indices{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-indices button:hover {
+  background: rgb(0, 56, 146);
+  color: white; /* Maintient la couleur du texte en blanc */
+  border: 2px solid rgb(0, 56, 146);
+}
+
+.button-indices button a {
+  text-decoration: none; /* Enlève le soulignage sur le lien */
+}
+
+.button-indices button a,
+.button-indices button a:visited {
+  text-decoration: none; /* Enlève le soulignage sur le lien */
+  color: white; /* Définit la couleur du texte pour les liens non visités et visités */
+}
+
+.button-indices button:hover {
+  background: rgb(0, 48, 125);
+  color: white; /* Maintient la couleur du texte en blanc */
+  border: 2px solid rgb(0, 48, 125);
+}
+
+.page-indices{
+  text-align: center;
+}
+
+.background-citation{
+  background: #8e8e8e;
+  padding-top: 3px;
+  padding-bottom: 10px;
+}
+
+.component-indices{
+  background: white;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.indice {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
